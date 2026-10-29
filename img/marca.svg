@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Villacal">
+  <defs><linearGradient id="vg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB627"/><stop offset="1" stop-color="#E8611E"/></linearGradient></defs>
+  <path d="M6 47 50 9l44 38" fill="none" stroke="#10263A" stroke-width="10" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  <path d="M22 40h15.5L50 68.5 62.5 40H78L50 95Z" fill="url(#vg)"/>
+  <rect x="68" y="14" width="9" height="16" fill="#10263A"/>
+</svg>
