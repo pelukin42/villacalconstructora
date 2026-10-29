@@ -116,8 +116,6 @@ section{padding:clamp(70px,10vw,120px) 0;position:relative}
 .dark-sec .head p{color:#b7c6d4}
 .dark-sec .eyebrow{color:var(--amber)}
 .white-sec{background:#fff}
-.demo-note{margin-top:26px;font-size:.82rem;color:var(--muted);border:1px dashed rgba(232,97,30,.5);background:rgba(255,182,39,.08);padding:10px 14px;border-radius:12px;max-width:760px}
-.demo-note.dark{color:#c9d6e2;border-color:rgba(255,182,39,.45)}
 
 /* ---------- reveal ---------- */
 .js .rv{opacity:0;transform:translateY(34px);transition:opacity .8s var(--ease),transform .8s var(--ease);transition-delay:var(--d,0s)}
@@ -341,7 +339,6 @@ footer .fgrid a:not(.btn):not(.brand){display:block;text-decoration:none;padding
 footer .fgrid a:not(.btn):not(.brand):hover{color:var(--amber)}
 .foot-wa{margin-top:12px}
 .copy{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;border-top:1px solid rgba(255,255,255,.1);margin-top:40px;padding-top:22px;font-size:.82rem;color:#8ea2b5}
-.copy-demo{margin-top:12px;font-size:.78rem;color:var(--amber)}
 
 /* ---------- WhatsApp flotante ---------- */
 .wa-widget{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:max(18px,env(safe-area-inset-bottom,0px));z-index:45;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
