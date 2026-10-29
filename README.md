@@ -11,7 +11,7 @@ index.html          página completa
 css/styles.css      diseño (paleta y tipografía arriba del archivo)
 js/config.js        DATOS DEL NEGOCIO: lo único que hay que editar
 js/app.js           comportamiento (órbita, carrusel, solicitud, visor…)
-img/marca*.svg      logo provisional (marca «V» con techo)
+img/marca*.svg      logo (redibujado del logo de Facebook)
 img/obras/          fotos
 favicon.svg
 netlify.toml
@@ -29,8 +29,6 @@ La página de Facebook exige iniciar sesión, así que estos datos no se pudiero
 | Instagram | `instagram`, `instagramUsuario` | Oculto |
 | Cédula jurídica | `cedulaJuridica` | Aviso en el pie |
 | **Fotos reales de obras** | `obras` | Fotos referenciales (ver abajo) |
-| **Logo oficial** | `img/marca.svg`, `img/marca-blanco.svg`, `favicon.svg` | Logo provisional |
-| Colores de marca | variables `:root` al inicio de `css/styles.css` | Azul petróleo + ámbar/naranja |
 
 Cuando todo esté confirmado, poner `demo: false` en `js/config.js`: desaparecen las notas de «propuesta» y lo que siga vacío se oculta.
 
@@ -46,7 +44,9 @@ Para usar las fotos reales (por ejemplo, las publicadas en Facebook):
 
 ## Logo
 
-El logo es provisional: un techo sobre una «V» en degradado ámbar-naranja. Para usar el logo oficial, reemplazar `img/marca.svg` (fondo claro), `img/marca-blanco.svg` (fondo oscuro) y `favicon.svg`. Si el logo viene en PNG, guardarlo en `img/` y cambiar las rutas `img/marca-blanco.svg` en `index.html`.
+El logo está redibujado en SVG a partir del logo de la página de Facebook: círculo abierto, cinco edificios y dos techos en degradado verde turquesa. `img/marca.svg` es para fondo claro, `img/marca-blanco.svg` para fondo oscuro y `favicon.svg` es el ícono de la pestaña. El nombre se escribe con la letra Cinzel («VILLACAL / Remodelaciones y Construcciones»).
+
+La paleta sale del logo: verde turquesa `#12A08A` (degradado `#22C4A6` → `#0A6E63`), verde profundo `#0C2B2A` y blanco `#F3F8F7`. Se cambia en las variables `:root` al inicio de `css/styles.css`.
 
 ## Ver el sitio en la computadora
 
